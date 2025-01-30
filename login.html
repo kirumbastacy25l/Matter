@@ -13,10 +13,87 @@
     <title>Login</title>
 </head>
 <body>
-<h1 class="text-center">SIGN IN USING YOUR ACCOUNT</h1>
 
 
-<form action="" class="">
+<marquee behavior="" direction=""><h1>Welcome to Matter Hospital</h1></marquee>
+
+
+
+
+<!---Navbar-->
+<nav class="navbar bg-dark justify-content-end navbar-expand-lg">
+
+<ul class="navbar-nav">
+    
+    <li class="nav-item">
+
+        <a href="home.html" target="_blank" class="nav-link text-light">Home</a>
+    </li>
+    
+
+    <li class="nav-item">
+
+        <a href="about.html" class="nav-link text-light">About</a>
+
+
+    </li>
+
+
+<li class="nav-item">
+
+
+    <a href="profile.html" class="nav-link text-light">Profile</a>
+
+
+</li>
+
+
+
+    <li class="nav-item">
+
+
+    <a href="register.html." class="nav-link text-light">Register</a>
+
+
+</li>
+
+
+
+<li class="nav-item">
+
+
+    <a href="#" class="nav-link text-light">Login</a>
+
+
+</li>
+
+<li class="nav-item me-3" >
+
+    <form action="" class="d-flex">
+
+        <input type="search" placeholder="Search" class="form-control me-3 ">
+        
+        <button class="btn btn-outline-warning">Search</button>
+
+
+    </form>
+    
+    
+</li>
+
+</ul>
+
+
+</nav>
+
+
+<!--End of navbar-->
+
+
+<marquee behavior="" direction="" class="text-danger"><h1>SIGN IN</h1></marquee>
+
+
+<form action="" class="p-5">
 <!--ROW-->
 
 <div class="row mb-3">
@@ -33,7 +110,7 @@
 
 <div class="col">
     <label for="pwd" class="form-label">Password</label>
-    <input type="password" id="pwd" class="form-control" required="required">
+    <input type="password" id="pwd" class="form-control mb-3" required="required">
 
 
 
@@ -47,12 +124,12 @@
 
 
 
-    <label for="add" class="form-label mb-3">Address</label>
+    <label for="add" class="form-label">Address</label>
     <input type="text" id="add" class="form-control mb-3" required="required" placeholder="1234 Main Street">
 
 
-  <label for="add2" class="form-label mb-3">Address 2</label>
-    <input type="text" id="add2" class="form-control" required="required" placeholder="Apartment,studio,or floor">
+  <label for="add2" class="form-label ">Address 2</label>
+    <input type="text" id="add2" class="form-control mb-3" required="required" placeholder="Apartment,studio,or floor">
 
 
 <div class="row mb-3">
@@ -62,32 +139,31 @@
    <div class="col">
 
 
-       <label for="city" class="form-label mb-3" >City</label>
-       <input type="text" id="city" class="form-control">
+       <label for="city" class="form-label" >City</label>
+       <input type="text" id="city" class="form-control mb-3">
    </div>
 
 
 
+ <div class="col">
+
+<label for="yos" class="form-label ">State:</label>
+    <select name="" id="yos" required="required" class="form-control mb-3">
+        <option value="" >Choose One---</option>
+        <option value="alaska">Alaska</option>
+        <option value="alabama">Alabama</option>
+        <option value="maine">Maine</option>
+        <option value="louisiana">Louisiana</option>
+    </select>
 
 
-    <div class="col">
-
-
-       <label for="state" class="form-label">State</label>
-        <select name="" id="state">
-     <option value="alabama">Alabama</option>
-     <option value="alaska">Alaska</option>
-     <option value="california">California</option>
-     <option value="maine">Maine</option>
-     
- </select>
  </div>
 
 
 
         <div class="col">
             <label for="zip" class="form-label ">Zip</label>
-            <input type="text" class="form-control " id="zip" required="required">
+            <input type="text" class="form-control mb-3 " id="zip" required="required">
 
         </div>
 
